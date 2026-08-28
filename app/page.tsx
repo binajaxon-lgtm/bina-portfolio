@@ -193,14 +193,16 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-[#E6D5C3]">Get in Touch</h2>
               <p>For commissions, exhibition inquiries, or collaborations, feel free to reach out.</p>
               <div className="p-8 rounded-2xl bg-[#3B322C] border border-[#4A3F35] space-y-4 max-w-lg mx-auto">
-                <p className="text-[#FDFBF7] text-lg">
-  <strong className="text-[#E6D5C3]">Email: </strong>
-  <a href="mailto:contact@binajaxon.art" className="underline hover:opacity-80">
-    contact@binajaxon.art
-  </a>
-</p>
-                  <strong className="text-[#E6D5C3]">Location:</strong> Houston, TX
-                </p>
+  <p className="text-[#FDFBF7] text-lg">
+    <strong className="text-[#E6D5C3]">Email: </strong>
+    <a href="mailto:contact@binajaxon.art" className="underline hover:opacity-80">
+      contact@binajaxon.art
+    </a>
+  </p>
+  <p className="text-[#FDFBF7] text-lg">
+    <strong className="text-[#E6D5C3]">Location: </strong>Houston, TX
+  </p>
+</div>
               </div>
             </motion.div>
           )}
